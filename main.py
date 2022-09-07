@@ -10,12 +10,12 @@ root.title('Google Translator')
 root.geometry('1080x400')
 
 # icon 
-image_icon = PhotoImage(file='google.png')
+image_icon = PhotoImage(file='/images/google.png')
 root.iconphoto(False, image_icon)
 
 
 #arrow
-arrow_image = PhotoImage(file='arrow.png')
+arrow_image = PhotoImage(file='/images/arrow.png')
 image_label=Label(root,image=arrow_image,width=150)
 image_label.place(x=460,y=50)
 
