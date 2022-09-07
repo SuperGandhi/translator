@@ -13,6 +13,17 @@ root.geometry('1080x400')
 image_icon = PhotoImage(file='google.png')
 root.iconphoto(False, image_icon)
 
+
+#arrow
+arrow_image = PhotoImage(file='arrow.png')
+image_label=Label(root,image=arrow_image,width=150)
+image_label.place(x=460,y=50)
+
+
+
+
+
+
 language = googletrans.LANGUAGES
 languageV= list(language.values())
 lang1 = language.keys()
